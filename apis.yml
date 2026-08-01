@@ -1,7 +1,25 @@
 aid: penguint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/penguint.png
 name: Penguint
-description: Penguint is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PenguinT (penguin.travel) is a licensed Thai travel agency and tour operator
+  (registration 11/08856) specializing in online flight search and booking for domestic
+  and international routes. The consumer-facing site lets travelers compare round-trip and
+  one-way fares across major carriers such as Thai Airways, Emirates, and Qatar Airways,
+  in cabin classes from economy through first, departing from Bangkok, Chiang Mai, Phuket
+  and other Thai cities. It was surfaced as a 500 Global portfolio company and added to the
+  API Evangelist network. As of this enrichment pass the company publishes no public API,
+  developer portal, or programmatic booking surface.
 url: https://raw.githubusercontent.com/api-evangelist/penguint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Travel
+- Tourism
+- Flights
+- Booking
+- Thailand
+- Travel Agency
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://penguin.travel
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
